@@ -1,0 +1,48 @@
+#An algorithm that asks a user to enter a positive number repeatedly until 
+#the user enters a zero value, then determines and outputs the largest of 
+#the numbers that were entered
+start
+ask the user to input a positive number
+if number is zero 
+	print the largest of the numbers that were entered
+else if the number is not zero
+	print ('input a positive number greater or equal to zero')
+end
+
+#An algorithm that requests a user to input their name and then stores 
+#their name in a variable called first_name. Subsequently, the algorithm 
+#should print out first_name along with the phrase “Hello, World”. 
+start
+variable = first_name
+	input the user's name under first_name variable
+	print "first_name, Hello World”
+end
+
+#An algorithm that reads an arbitrary number of integers and then returns 
+#their arithmetic average
+start
+set sum of integers to zero
+where counter is all integers
+	input an integer 
+	add integer to sum of integers
+calculate arithmetic average by dividing sum of integers by an arbitrary number of entries
+print arithmetic average
+end
+
+#An algorithm that reads a grocery list and prints out the products (in 
+#alphabetical order) that are still left to buy
+start
+create variable = grocery_list_items
+	input grocery list items 
+create variable = grocery_items_bought
+	input grocery items bought
+subract grocery_items_bought from grocery_list_items
+print grocery_items_bought minus grocery_list_items, in alphabetical order
+end
+
+#An algorithm from the flowchart
+start
+ X=5
+ Y=6
+calculate the value of S = X+Y, A = S/2, P= X*Y
+print the value of S, A and P
